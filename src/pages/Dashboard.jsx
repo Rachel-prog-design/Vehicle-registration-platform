@@ -39,7 +39,7 @@ export default function Dashboard() {
       <div className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-2xl font-bold text-slate-800">Dashboard</h1>
-          <p className="text-slate-400 text-sm mt-1">Manage all registered vehicles</p>
+          <p className="text-slate-400 text-sm mt-1">Manage registered vehicles</p>
         </div>
         <button
           onClick={() => navigate('/vehicle/new')}
